@@ -9,7 +9,7 @@
 char *leet(char *n)
 {
 	int i, j;
-	char s2[5] = "4433007711";
+	char s2[] = "4433007711";
 	char s1[] = "aAeEoOtTlL";
 
 	for (i = 0; n[i] != '\0'; i++)
@@ -22,5 +22,5 @@ char *leet(char *n)
 			}
 		}
 	}
-	return (str);
+	return (n);
 }
